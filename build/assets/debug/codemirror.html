@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Code Mirror</title>
+    <script type="text/javascript" src="jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="codemirror.js"></script>
+    <link rel="stylesheet" href="codemirror.css">
+    <script type="text/javascript" src="clike.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+    <script type="text/javascript" src="css.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            var fileContent = Android.getFileContent();
+            var textarea = document.getElementById('code');
+            textarea.value = fileContent;
+            var editor = CodeMirror.fromTextArea(textarea, {
+                textWrapping: true
+            });
+            editor.setSize(1500, 3000);
+        });
+       
+       
+    </script>
+</head>
+<body>
+<div>
+    <textarea id="code" cols="120" rows="30">
+
+    </textarea>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\fshaikh\AndroidStudioProjects\FileHandlerProject\FileHandler\src\main\assets" >
+            <file
+                name="clike.js"
+                path="C:\Users\fshaikh\AndroidStudioProjects\FileHandlerProject\FileHandler\src\main\assets\clike.js" />
+            <file
+                name="codemirror.css"
+                path="C:\Users\fshaikh\AndroidStudioProjects\FileHandlerProject\FileHandler\src\main\assets\codemirror.css" />
+            <file
+                name="codemirror.html"
+                path="C:\Users\fshaikh\AndroidStudioProjects\FileHandlerProject\FileHandler\src\main\assets\codemirror.html" />
+            <file
+                name="codemirror.js"
+                path="C:\Users\fshaikh\AndroidStudioProjects\FileHandlerProject\FileHandler\src\main\assets\codemirror.js" />
+            <file
+                name="jquery-1.10.2.js"
+                path="C:\Users\fshaikh\AndroidStudioProjects\FileHandlerProject\FileHandler\src\main\assets\jquery-1.10.2.js" />
+            <file
+                name="custom.js"
+                path="C:\Users\fshaikh\AndroidStudioProjects\FileHandlerProject\FileHandler\src\main\assets\custom.js" />
+            <file
+                name="css.js"
+                path="C:\Users\fshaikh\AndroidStudioProjects\FileHandlerProject\FileHandler\src\main\assets\css.js" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\fshaikh\AndroidStudioProjects\FileHandlerProject\FileHandler\src\debug\assets" />
+    </dataSet>
+
+</merger>
