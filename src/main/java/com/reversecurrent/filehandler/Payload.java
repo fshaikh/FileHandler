@@ -5,4 +5,6 @@ package com.reversecurrent.filehandler;
  */
 public class Payload {
     public String FileContent;
+    public String FilePath;
+    public String FileExtension;
 }
