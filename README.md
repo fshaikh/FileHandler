@@ -13,6 +13,7 @@ installing this app, user will be able to view these files with following featur
   1. Proper formatting
   2. Proper indentation
   3. Code coloring
-It will basically make the user feel as if he/she is reading the code in his favoutire IDE.
+
+It will basically make the user feel as if he/she is reading the code in his favourite IDE.
 
 
